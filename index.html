@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Campagnola: Pizzeria e Trattoria, Rione Sanità, Napoli</title>
+<meta name="description" content="La Campagnola, trattoria e pizzeria dei fratelli Grossi fuori Porta San Gennaro, nel rione Sanità a Napoli. Dal mercato dei Vergini al forno: pizze, fritti e cucina napoletana.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat:wght@600&family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=’http://www.w3.org/2000/svg’ viewBox=’0 0 32 32’%3E%3Crect width=’32’ height=’32’ fill=’%231D4E9E’/%3E%3Cpath d=’M16 4l3 9 9 3-9 3-3 9-3-9-9-3 9-3z’ fill=’%23F0A818’/%3E%3C/svg%3E">
+</head>
+<body>
+
+<div class="util">
+  <span class="util-addr">Via Fuori Porta S. Gennaro 13/14 · Napoli</span>
+  <span class="util-hours" data-i18n="util.hours">Mar-Dom: 12:00-16:00 / 18:30-23:30</span>
+  <a class="util-tel" href="tel:+39081457663">081 457 663</a>
+</div>
+
+<header class="head">
+  <a class="brand" href="#top" aria-label="La Campagnola">
+    <span class="brand-name">La Campagnola</span>
+    <span class="brand-sub" data-i18n="brand.sub">Trattoria e pizzeria dei fratelli Grossi</span>
+  </a>
+  <nav class="nav" aria-label="Principale">
+    <a href="#fritti" data-i18n="nav.fritti">I Fritti</a>
+    <a href="#menu" data-i18n="nav.menu">Il Menù</a>
+    <a href="#galleria" data-i18n="nav.gallery">Galleria</a>
+    <a href="#casa" data-i18n="nav.house">La Casa</a>
+    <a href="#visita" data-i18n="nav.visit">Visita</a>
+  </nav>
+  <div class="head-actions">
+    <div class="lang" role="group" aria-label="Lingua / Language">
+      <button type="button" class="lang-btn is-on" data-lang="it">IT</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <a class="btn btn-call head-call" href="tel:+39081457663">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+      <span data-i18n="cta.call">Chiama ora</span>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="tilewall" aria-hidden="true">
+      <div class="plane plane-a" data-depth="0.25"></div>
+      <div class="plane plane-b" data-depth="0.5"></div>
+      <div class="plane plane-c" data-depth="0.85"></div>
+    </div>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1 class="hero-title">
+          <span class="ht-line" data-i18n="hero.l1">Dal mercato</span>
+          <span class="ht-line ht-em" data-i18n="hero.l2">dei Vergini,</span>
+          <span class="ht-line" data-i18n="hero.l3">al forno.</span>
+        </h1>
+        <p class="kicker"><span class="kicker-tile" aria-hidden="true"></span><span data-i18n="hero.kicker">Rione Sanità · Fuori Porta San Gennaro</span></p>
+        <p class="hero-sub" data-i18n="hero.sub">Pizzeria e trattoria tradizionale napoletana dei fratelli Grossi, nel cuore del rione Sanità: dalla margherita alle pizze nate ai banchi del mercato.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#menu" data-i18n="hero.cta1">Vedi il menù</a>
+          <a class="btn btn-link" href="tel:+39081457663" data-i18n="hero.cta2">Prenota un tavolo</a>
+        </div>
+        <div class="hero-proof">
+          <span class="stamp">
+            <strong>4,5 ★</strong>
+            <span data-i18n="hero.rating">oltre 2.100 recensioni su Google</span>
+          </span>
+          <span class="stamp stamp-alt">
+            <strong>Travellers’ Choice 2026</strong>
+            <span>TripAdvisor</span>
+          </span>
+        </div>
+        <p class="hero-note"><span class="note-hand" data-i18n="hero.note">il lunedì il forno riposa</span></p>
+      </div>
+      <div class="hero-media">
+        <figure class="hero-frame" id="heroFrame">
+          <img src="assets/hero-pizza.webp" alt="Pizza margherita napoletana su tagliere di legno, con pomodori, basilico e maioliche" width="1200" height="900" fetchpriority="high">
+          <figcaption class="hero-tag"><span data-i18n="hero.tag">La Margherita</span> · 7&nbsp;€</figcaption>
+        </figure>
+        <div class="hero-chip" aria-hidden="true">
+          <span class="chip-big" data-i18n="hero.chip1">Dal banco</span>
+          <span class="chip-small" data-i18n="hero.chip2">al forno, ogni giorno</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Fritti</span><i>✦</i><span>Pizze</span><i>✦</i><span>Primi</span><i>✦</i><span>Secondi</span><i>✦</i><span>Dolci</span><i>✦</i><span data-i18n="marq.market">Dal mercato dei Vergini</span><i>✦</i>
+      <span>Fritti</span><i>✦</i><span>Pizze</span><i>✦</i><span>Primi</span><i>✦</i><span>Secondi</span><i>✦</i><span>Dolci</span><i>✦</i><span data-i18n="marq.market">Dal mercato dei Vergini</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- TRUST -->
+  <section class="trust" aria-label="In breve">
+    <div class="trust-grid">
+      <div class="tile-card reveal">
+        <span class="tc-num">4,5 ★</span>
+        <span class="tc-label" data-i18n="trust.1">su Google, da oltre 2.100 recensioni</span>
+      </div>
+      <div class="tile-card reveal">
+        <span class="tc-num">€ 2,50</span>
+        <span class="tc-label" data-i18n="trust.2">i fritti, il rito prima della pizza</span>
+      </div>
+      <div class="tile-card reveal">
+        <span class="tc-num" data-i18n="trust.3n">I banchi</span>
+        <span class="tc-label" data-i18n="trust.3">le pizze dedicate ai venditori del mercato dei Vergini</span>
+      </div>
+      <div class="tile-card reveal">
+        <span class="tc-num" data-i18n="trust.4n">Fratelli Grossi</span>
+        <span class="tc-label" data-i18n="trust.4">una casa di famiglia, fuori Porta San Gennaro</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRITTI -->
+  <section class="fritti" id="fritti">
+    <div class="section-head">
+      <h2 data-i18n="fritti.title">Prima del forno: i fritti</h2>
+      <p class="eyebrow eyebrow-light" data-i18n="fritti.eyebrow">Banco nº 0 · L’attesa</p>
+      <p class="section-lede" data-i18n="fritti.lede">A Napoli la pizza si aspetta così: piccoli, dorati, da mangiare in piedi o appena seduti. Prezzi dal menù della casa.</p>
+    </div>
+    <div class="fritti-rail" role="list">
+      <article class="fritto reveal" role="listitem">
+        <h3>Crocche di patate</h3>
+        <p data-i18n="f.crocche">Provola, parmigiano e pepe</p>
+        <span class="price">2,50&nbsp;€</span>
+      </article>
+      <article class="fritto reveal" role="listitem">
+        <h3>Frittatina di bucatini</h3>
+        <p data-i18n="f.bucatini">Besciamella, provola, carne macinata, piselli, parmigiano</p>
+        <span class="price">2,50&nbsp;€</span>
+      </article>
+      <article class="fritto reveal" role="listitem">
+        <h3>Frittatina di pasta e patate</h3>
+        <p data-i18n="f.patate">Il classico di casa, in versione fritta</p>
+        <span class="price">2,50&nbsp;€</span>
+      </article>
+      <article class="fritto reveal" role="listitem">
+        <h3>Arancino</h3>
+        <p data-i18n="f.arancino">Riso arborio, salame Napoli, carne macinata, piselli, provola</p>
+        <span class="price">2,50&nbsp;€</span>
+      </article>
+      <article class="fritto reveal" role="listitem">
+        <h3>Montanara</h3>
+        <p data-i18n="f.montanara">Pizza fritta con ragù napoletano e formaggio</p>
+        <span class="price">2,50&nbsp;€</span>
+      </article>
+      <article class="fritto reveal" role="listitem">
+        <h3>Migliaccio napoletano</h3>
+        <p data-i18n="f.migliaccio">Polenta con cicoli, salame Napoli, formaggio</p>
+        <span class="price">3&nbsp;€</span>
+      </article>
+      <article class="fritto reveal" role="listitem">
+        <h3>Baccalà fritto</h3>
+        <p data-i18n="f.baccala">Dorato e asciutto, come da tradizione</p>
+        <span class="price">5&nbsp;€</span>
+      </article>
+    </div>
+    <p class="rail-hint" data-i18n="fritti.hint">Scorri per assaggiare tutto il banco →</p>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="section-head">
+      <h2 data-i18n="menu.title">Una passeggiata tra i banchi</h2>
+      <p class="eyebrow" data-i18n="menu.eyebrow">Il menù della casa</p>
+      <p class="section-lede" data-i18n="menu.lede">Il menù è una passeggiata al mercato dei Vergini: ogni banco ha le sue pizze, ogni pizza il suo venditore. Prezzi dal menù ufficiale pubblicato dalla casa.</p>
+    </div>
+    <nav class="stall-nav" aria-label="Banchi">
+      <a href="#banco-classiche" data-i18n="menu.n1">Le Classiche</a>
+      <a href="#banco-stelle" data-i18n="menu.n2">Le Stelle ai Vergini</a>
+      <a href="#banco-mercato" data-i18n="menu.n3">I Banchi del Mercato</a>
+      <a href="#banco-trattoria" data-i18n="menu.n4">La Trattoria</a>
+      <a href="#banco-dolci" data-i18n="menu.n5">Dolci</a>
+    </nav>
+
+    <!-- STALL 1 -->
+    <article class="stall reveal" id="banco-classiche">
+      <header class="stall-head">
+        <h3 data-i18n="s1.title">Le Classiche</h3>
+        <span class="stall-no">Banco nº 1</span>
+        <p data-i18n="s1.lede">«La Margherita è l’essenza della pizza», dal menù della casa. Con le Marinare: un inno alla semplicità, tra aglio, origano e San Marzano.</p>
+      </header>
+      <div class="stall-cols">
+        <div>
+          <h4 class="stall-sub" data-i18n="s1.sub1">Margherita e le altre</h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Margherita</span><p data-i18n="d.margherita">Pomodoro San Marzano, fior di latte, Grana Padano, basilico, olio EVO</p></div><span class="price">7&nbsp;€</span></li>
+            <li><div><span class="dish">Provola e Pepe</span><p data-i18n="d.provola">Pomodoro San Marzano, provola e pepe, Grana Padano, basilico, olio EVO</p></div><span class="price">7&nbsp;€</span></li>
+            <li><div><span class="dish">Margherita con Bufala DOP</span><p data-i18n="d.bufala">Pomodoro San Marzano, mozzarella di bufala DOP, Grana Padano, basilico, olio EVO</p></div><span class="price">9&nbsp;€</span></li>
+            <li><div><span class="dish">Margherita Napoletana</span><p data-i18n="d.napoletana">Pomodoro San Marzano, fior di latte, acciughe di Cetara, Grana Padano, origano, basilico, olio EVO</p></div><span class="price">9&nbsp;€</span></li>
+            <li><div><span class="dish">Filetto di Pomodoro</span><p data-i18n="d.filetto">Pomodorino datterino, provola di bufala, Grana Padano, basilico, olio EVO</p></div><span class="price">8&nbsp;€</span></li>
+            <li><div><span class="dish">Stracciata</span><p data-i18n="d.stracciata">Pomodoro San Marzano, stracciata, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Margherita Flegrea</span><p data-i18n="d.flegrea">Pomodoro cannellino flegreo, fior di latte, grana, basilico, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+          </ul>
+          <h4 class="stall-sub" data-i18n="s1.sub2">Le Marinare</h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Marinara Classica</span><p data-i18n="d.marinara">Pomodoro San Marzano, origano di montagna, aglio bianco, basilico, olio EVO</p></div><span class="price">7&nbsp;€</span></li>
+            <li><div><span class="dish">Marinara Rinforzata</span><p data-i18n="d.rinforzata">Pomodoro San Marzano, olive caiazzane, acciughe di Cetara, pesto di aglio orsino, basilico, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Marinara con Pomodorini Gialli</span><p data-i18n="d.gialli">Pomodorini gialli del Vesuvio, origano di montagna, aglio bianco, basilico, olio EVO</p></div><span class="price">8&nbsp;€</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="stall-sub" data-i18n="s1.sub3">Le Eterne</h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Cosacca</span><p data-i18n="d.cosacca">Pomodoro San Marzano, pecorino romano, basilico, olio EVO</p></div><span class="price">7&nbsp;€</span></li>
+            <li><div><span class="dish">Capricciosa</span><p data-i18n="d.capricciosa">Pomodoro San Marzano, fior di latte, prosciutto cotto di Parma, funghi, carciofi sott’olio, olive caiazzane, Grana Padano, basilico, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Diavola</span><p data-i18n="d.diavola">Pomodoro San Marzano, fior di latte, salame piccante Napoli, Grana Padano, basilico, olio EVO</p></div><span class="price">9&nbsp;€</span></li>
+            <li><div><span class="dish">Ripieno al Forno</span><p data-i18n="d.ripforno">Ricotta di bufala, prosciutto cotto, fior di latte, pomodoro San Marzano, basilico, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Ripieno Fritto</span><p data-i18n="d.ripfritto">Ricotta di bufala, provola, cicoli di maiale, pepe nero, pomodoro San Marzano</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Ripieno di Scarole</span><p data-i18n="d.scarole">Scarola riccia, provola, olive caiazzane, Grana Padano, olio EVO, fritto o al forno</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">4 Formaggi</span><p data-i18n="d.formaggi">Base bianca: fior di latte, tuma persa, pecorino bagnolese al tartufo, blu di bufala, cacio ricotta del Cilento</p></div><span class="price">11&nbsp;€</span></li>
+          </ul>
+          <p class="stall-note"><span class="note-hand" data-i18n="s1.note">nel week-end chiedi la pizza nel rutiello: 10 €</span></p>
+        </div>
+      </div>
+    </article>
+
+    <!-- STALL 2 -->
+    <article class="stall stall-blue reveal" id="banco-stelle">
+      <header class="stall-head">
+        <h3 data-i18n="s2.title">Le Stelle ai Vergini</h3>
+        <span class="stall-no">Banco nº 2</span>
+        <p data-i18n="s2.lede">Le creazioni dello chef Pasquale Palamaro: l’eccellenza della pizza incontra l’alta cucina, tra tradizione partenopea e ricerca. Dal menù della casa.</p>
+      </header>
+      <ul class="dish-list dish-wide">
+        <li><div><span class="dish">L’Apparenza Inganna</span><p data-i18n="d.apparenza">«Una diavola di mare»: salmonino rosa, mozzarella, peperoncino, salsa piccante di datterino giallo, friggitelli, jalapeño verde dolce, parmigiano, olio EVO</p></div><span class="price">11&nbsp;€</span></li>
+        <li><div><span class="dish">Scarpariello</span><p data-i18n="d.scarpariello">Pomodoro caramella, parmigiano 12 mesi, pecorino romano, olio EVO</p></div><span class="price">11&nbsp;€</span></li>
+        <li><div><span class="dish">An Evergreen Pizza</span><p data-i18n="d.evergreen">Fior di latte, spinaci novelli, puntarelle, crescione di fiume, limone di Sorrento, noce moscata, olio EVO</p></div><span class="price">11&nbsp;€</span></li>
+        <li><div><span class="dish">Pollo, Carciofi e Cipolla di Montoro</span><p data-i18n="d.pollo">Pollo ruspante, carciofi mammarelle, cipolla di Montoro, provola di Agerola, parmigiano vacche rosse, olio EVO</p></div><span class="price">11&nbsp;€</span></li>
+      </ul>
+    </article>
+
+    <!-- STALL 3 -->
+    <article class="stall reveal" id="banco-mercato">
+      <header class="stall-head">
+        <h3 data-i18n="s3.title">Dal Mercato del Borgo al forno</h3>
+        <span class="stall-no">Banco nº 3</span>
+        <p data-i18n="s3.lede">La stagionalità è il cuore di questa selezione: ogni pizza è legata a un venditore e a un luogo del quartiere, dai banchi del mercato dei Vergini. Dal menù della casa.</p>
+      </header>
+      <div class="stall-cols">
+        <div>
+          <h4 class="stall-sub">’O Fruttajuolo · <span data-i18n="s3.veg">L’ortolano</span></h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Pulcinella</span><p data-i18n="d.pulcinella">Friarielli, salsiccia, provola di Agerola, Grana Padano, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Misericordiella</span><p data-i18n="d.misericordiella">Cornicione ripieno di ricotta di bufala e pepe nero, friarielli e provola, provolone del Monaco DOP, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Tarallosa</span><p data-i18n="d.tarallosa">Cornicione ripieno di salame e provola, pomodorini gialli, tarallo, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Vicoletto Verde</span><p data-i18n="d.vicoletto">La vegetariana del mese: verdure di stagione dal mercato, provola di Agerola, basilico, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Cuore di Napoli</span><p data-i18n="d.cuore">Ricotta di bufala, fior di latte, fiori di zucca, datterino giallo, pepe, grana, olio EVO</p></div><span class="price">11&nbsp;€</span></li>
+            <li><div><span class="dish">Pesto</span><p data-i18n="d.pesto">Pesto di basilico, provola di bufala DOP, pomodoro a pacchetelle DOP, Grana Padano, pistacchio di Bronte, olio EVO</p></div><span class="price">11&nbsp;€</span></li>
+          </ul>
+          <h4 class="stall-sub">’O Piscivinnolo · <span data-i18n="s3.fish">Il pescivendolo</span></h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Azzurra</span><p data-i18n="d.azzurra">Fior di latte, alici, zeste di limone, grana, olio EVO</p></div><span class="price">12&nbsp;€</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="stall-sub">’O Casanduoglio · <span data-i18n="s3.cheese">Il casaro</span></h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Delizia</span><p data-i18n="d.delizia">Pomodoro datterino, fior di latte, prosciutto crudo, rucola, scaglie di grana, olio EVO</p></div><span class="price">11&nbsp;€</span></li>
+            <li><div><span class="dish">Totò</span><p data-i18n="d.toto">Pomodorino del Piennolo, provola, provolone del Monaco DOP, basilico, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Provola alla Pizzaiola</span><p data-i18n="d.pizzaiola">Pomodoro San Marzano, origano, aglio bianco, provola, pecorino, basilico, olio EVO</p></div><span class="price">9&nbsp;€</span></li>
+          </ul>
+          <h4 class="stall-sub">’O Chianchiere · <span data-i18n="s3.butcher">Il macellaio</span></h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Cirù</span><p data-i18n="d.ciru">Ricotta di bufala, fior di latte, pancetta, pepe nero, Grana Padano, basilico, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">La Regina</span><p data-i18n="d.regina">Ragù napoletano, fior di latte, polpettine di carne, Grana Padano, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Nanninella</span><p data-i18n="d.nanninella">Patate al forno, salsiccia, provola, Grana Padano, basilico, olio EVO</p></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Carciofata</span><p data-i18n="d.carciofata">Crema di carciofi, provola, carciofi alla julienne con olive, pancetta al pepe nero, scaglie di grana</p></div><span class="price">11&nbsp;€</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="stall-footnote" data-i18n="s3.note">Le pizze stagionali cambiano con la disponibilità degli ingredienti del mercato.</p>
+    </article>
+
+    <!-- STALL 4 -->
+    <article class="stall reveal" id="banco-trattoria">
+      <header class="stall-head">
+        <h3 data-i18n="s4.title">La Trattoria</h3>
+        <span class="stall-no">Banco nº 4</span>
+        <p data-i18n="s4.lede">Non solo pizza: la cucina napoletana di casa Grossi, dai primi della domenica ai secondi del mercato.</p>
+      </header>
+      <div class="stall-cols">
+        <div>
+          <h4 class="stall-sub" data-i18n="s4.sub1">Antipasti</h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Parmigiana di melanzane</span></div><span class="price">8&nbsp;€</span></li>
+            <li><div><span class="dish">Prosciutto crudo e mozzarella</span></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Polipo all’insalata</span></div><span class="price">13&nbsp;€</span></li>
+            <li><div><span class="dish">Impepata di cozze</span></div><span class="price">11&nbsp;€</span></li>
+            <li><div><span class="dish">Mozzarella in carrozza</span></div><span class="price">5&nbsp;€</span></li>
+          </ul>
+          <h4 class="stall-sub" data-i18n="s4.sub2">Primi</h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Pasta e patate con provola</span></div><span class="price">10&nbsp;€</span></li>
+            <li><div><span class="dish">Ziti alla genovese</span><p data-i18n="d.genovese">Con carne di manzo</p></div><span class="price">12&nbsp;€</span></li>
+            <li><div><span class="dish">Gnocchi alla sorrentina</span></div><span class="price">9&nbsp;€</span></li>
+            <li><div><span class="dish">Linguine olive e capperi</span></div><span class="price">9&nbsp;€</span></li>
+            <li><div><span class="dish">Penne al pomodoro</span></div><span class="price">8&nbsp;€</span></li>
+            <li><div><span class="dish">Spaghetto misto mare</span><p data-i18n="d.mistomare">Cozze e lupini</p></div><span class="price">14&nbsp;€</span></li>
+            <li><div><span class="dish">Spaghetto alle vongole veraci</span></div><span class="price">15&nbsp;€</span></li>
+            <li><div><span class="dish">Spaghetti con polpo alla luciana</span></div><span class="price">23&nbsp;€</span></li>
+            <li><div><span class="dish">Lasagna</span><p data-i18n="d.lasagna">Ricotta, ragù, provola di bufala, uova, Grana Padano</p></div><span class="price">15&nbsp;€</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="stall-sub" data-i18n="s4.sub3">Secondi</h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Scaloppina al limone</span></div><span class="price">8&nbsp;€</span></li>
+            <li><div><span class="dish">Cotoletta di carne</span></div><span class="price">7&nbsp;€</span></li>
+            <li><div><span class="dish">Frittura di alici</span></div><span class="price">9&nbsp;€</span></li>
+            <li><div><span class="dish">Polpetta al ragù</span></div><span class="price">8&nbsp;€</span></li>
+            <li><div><span class="dish">Bistecca arrostita</span></div><span class="price">12&nbsp;€</span></li>
+            <li><div><span class="dish">Frittura di gamberi e calamari</span></div><span class="price">16&nbsp;€</span></li>
+          </ul>
+          <h4 class="stall-sub" data-i18n="s4.sub4">Contorni</h4>
+          <ul class="dish-list">
+            <li><div><span class="dish">Melanzane a funghetto</span></div><span class="price">6&nbsp;€</span></li>
+            <li><div><span class="dish">Peperoni in padella</span></div><span class="price">6&nbsp;€</span></li>
+            <li><div><span class="dish">Friarielli</span></div><span class="price">6&nbsp;€</span></li>
+            <li><div><span class="dish">Zucchine alla scapece</span></div><span class="price">6&nbsp;€</span></li>
+            <li><div><span class="dish">Insalata mista</span></div><span class="price">8&nbsp;€</span></li>
+            <li><div><span class="dish">Patatine fritte</span></div><span class="price">6&nbsp;€</span></li>
+          </ul>
+          <p class="stall-note"><span class="note-hand" data-i18n="s4.note">parte dei piatti cambia con il mercato: chiedi la lavagna del giorno</span></p>
+        </div>
+      </div>
+    </article>
+
+    <!-- STALL 5 -->
+    <article class="stall reveal" id="banco-dolci">
+      <header class="stall-head">
+        <h3 data-i18n="s5.title">Il dolce finale</h3>
+        <span class="stall-no">Banco nº 5</span>
+        <p data-i18n="s5.lede">I classici della pasticceria napoletana, per chiudere come si deve.</p>
+      </header>
+      <ul class="dish-list dish-wide">
+        <li><div><span class="dish">Pastiera napoletana</span></div><span class="price">6&nbsp;€</span></li>
+        <li><div><span class="dish">Delizia al limone</span></div><span class="price">6&nbsp;€</span></li>
+        <li><div><span class="dish">Tiramisù</span></div><span class="price">6&nbsp;€</span></li>
+        <li><div><span class="dish">Babà</span></div><span class="price">6&nbsp;€</span></li>
+        <li><div><span class="dish">Crostata al limone</span></div><span class="price">6&nbsp;€</span></li>
+      </ul>
+      <p class="stall-footnote" data-i18n="s5.note">Coperto 2 €. Bibite, birre alla spina e la carta dei vini, con le etichette campane, dalla Falanghina all’Aglianico, sono sul menù completo della casa.</p>
+    </article>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="galleria">
+    <div class="section-head">
+      <h2 data-i18n="gal.title">Il giro del mercato</h2>
+      <p class="eyebrow" data-i18n="gal.eyebrow">Galleria</p>
+    </div>
+    <div class="gal-track" id="galTrack">
+      <figure class="gal-card"><img src="assets/mercato.webp" alt="Banco del mercato dei Vergini con pomodori, limoni, basilico e maioliche" loading="lazy" width="1200" height="900"><figcaption data-i18n="gal.c1">Il banco del fruttajuolo</figcaption></figure>
+      <figure class="gal-card"><img src="assets/hero-pizza.webp" alt="Pizza margherita napoletana su tagliere di legno con maioliche" loading="lazy" width="1200" height="900"><figcaption data-i18n="gal.c2">La margherita</figcaption></figure>
+      <figure class="gal-card"><img src="assets/forno.webp" alt="Pizza che entra nel forno a legna tra le fiamme" loading="lazy" width="1200" height="900"><figcaption data-i18n="gal.c3">Il forno</figcaption></figure>
+      <figure class="gal-card"><img src="assets/fritti.webp" alt="Fritti napoletani dorati su un vassoio con carta" loading="lazy" width="1200" height="900"><figcaption data-i18n="gal.c4">I fritti</figcaption></figure>
+      <figure class="gal-card"><img src="assets/sala.webp" alt="Sala della trattoria con tavoli di legno e maioliche" loading="lazy" width="1200" height="900"><figcaption data-i18n="gal.c5">La sala</figcaption></figure>
+      <figure class="gal-card"><img src="assets/dolci.webp" alt="Pastiera e babà su piatti di ceramica con un caffè" loading="lazy" width="1200" height="900"><figcaption data-i18n="gal.c6">Il dolce finale</figcaption></figure>
+    </div>
+    <p class="gal-note" data-i18n="gal.note">Immagini di atmosfera create per questa dimostrazione. Le foto vere della casa sono sulla sua pagina Facebook.</p>
+  </section>
+
+  <!-- STORY -->
+  <section class="story" id="casa">
+    <div class="story-grid">
+      <figure class="story-media reveal">
+        <img src="assets/mercato.webp" alt="Il mercato dei Vergini: casse di pomodori San Marzano, limoni e basilico sotto la tenda a righe" loading="lazy" width="1200" height="900">
+        <figcaption class="story-tag"><span class="note-hand" data-i18n="story.tag">il mercato dei Vergini, a due passi</span></figcaption>
+      </figure>
+      <div class="story-copy">
+        <h2 data-i18n="story.title">Fratelli Grossi, fuori Porta San Gennaro</h2>
+        <p class="eyebrow" data-i18n="story.eyebrow">La casa</p>
+        <blockquote class="story-quote">
+          <p data-i18n="story.quote">«La Campagnola è una pizzeria e trattoria tradizionale napoletana, situata nel rione Sanità, nel cuore di Napoli.»</p>
+          <cite data-i18n="story.cite">La casa, nella sua descrizione ufficiale</cite>
+        </blockquote>
+        <p data-i18n="story.p1">La tavola comincia al mercato: il menù della casa dedica un’intera sezione ai banchi del Borgo Vergini, e ogni pizza porta il nome del suo venditore: il fruttajuolo, il casaro, il macellaio, il pescivendolo. È il quartiere, la Sanità, che detta la carta.</p>
+        <p data-i18n="story.p2">Nelle oltre duemila recensioni su Google ricorrono le stesse parole: impasto sottile e leggero, prezzi onesti, il servizio svelto e di casa. È il posto che i napoletani del quartiere consigliano a chi arriva da fuori, e dove, all’ora di punta, un po’ di fila è parte del rito.</p>
+        <div class="story-facts">
+          <div><strong data-i18n="story.f1n">Trattoria + pizzeria</strong><span data-i18n="story.f1">due anime, una sola cucina</span></div>
+          <div><strong data-i18n="story.f2n">Opzioni vegetariane</strong><span data-i18n="story.f2">e piatti del mercato ogni giorno</span></div>
+          <div><strong data-i18n="story.f3n">A due passi</strong><span data-i18n="story.f3">dal Museo Archeologico e dalla metro Museo</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section class="visit" id="visita">
+    <div class="visit-card reveal">
+      <div class="visit-info">
+        <h2 data-i18n="visit.title">Passa a trovarci</h2>
+        <p class="eyebrow eyebrow-light" data-i18n="visit.eyebrow">Visita</p>
+        <p class="visit-addr">La Campagnola<br>Via Fuori Porta S. Gennaro 13/14<br>80137 Napoli</p>
+        <a class="visit-tel" href="tel:+39081457663">081 457 663</a>
+        <div class="visit-ctas">
+          <a class="btn btn-lemon" href="tel:+39081457663" data-i18n="cta.call">Chiama ora</a>
+          <a class="btn btn-paper" href="https://www.google.com/maps/search/?api=1&amp;query=La+Campagnola+Via+Fuori+Porta+San+Gennaro+13+Napoli" target="_blank" rel="noopener" data-i18n="visit.directions">Indicazioni stradali</a>
+          <a class="btn btn-paper" href="https://www.facebook.com/lacampagnolapizzeria/" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+      <div class="visit-hours">
+        <h3 data-i18n="visit.hours">Orari</h3>
+        <table>
+          <tr><th data-i18n="day.mon">Lunedì</th><td data-i18n="hours.closed">Chiuso</td></tr>
+          <tr><th data-i18n="day.tue">Martedì</th><td data-i18n="hours.value">12:00-16:00 / 18:30-23:30</td></tr>
+          <tr><th data-i18n="day.wed">Mercoledì</th><td data-i18n="hours.value">12:00-16:00 / 18:30-23:30</td></tr>
+          <tr><th data-i18n="day.thu">Giovedì</th><td data-i18n="hours.value">12:00-16:00 / 18:30-23:30</td></tr>
+          <tr><th data-i18n="day.fri">Venerdì</th><td data-i18n="hours.value">12:00-16:00 / 18:30-23:30</td></tr>
+          <tr><th data-i18n="day.sat">Sabato</th><td data-i18n="hours.value">12:00-16:00 / 18:30-23:30</td></tr>
+          <tr><th data-i18n="day.sun">Domenica</th><td data-i18n="hours.value">12:00-16:00 / 18:30-23:30</td></tr>
+        </table>
+        <p class="hours-note" data-i18n="visit.note">Orari secondo il profilo Google della casa. TripAdvisor riporta orari leggermente diversi (12:00-15:30 / 19:00-23:00): per essere sicuri, una telefonata e via.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="foot-grid">
+    <div>
+      <span class="brand-name">La Campagnola</span>
+      <p data-i18n="foot.line">Trattoria e pizzeria dei fratelli Grossi · Rione Sanità, Napoli</p>
+    </div>
+    <div class="foot-contact">
+      <span>Via Fuori Porta S. Gennaro 13/14, 80137 Napoli</span>
+      <a href="tel:+39081457663">081 457 663</a>
+      <a href="https://www.facebook.com/lacampagnolapizzeria/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+  </div>
+  <p class="foot-fine" data-i18n="foot.fine">Sito dimostrativo non ufficiale, realizzato a scopo di presentazione. Fatti, menù e prezzi provengono dal menù ufficiale e dai profili pubblici della casa (Google 4,5 · oltre 2.100 recensioni; TripAdvisor Travellers’ Choice 2026). Immagini di atmosfera create per la dimostrazione.</p>
+</footer>
+
+<nav class="mobilebar" aria-label="Azioni rapide">
+  <a href="tel:+39081457663" class="mb-call">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>
+    <span data-i18n="bar.call">Chiama</span>
+  </a>
+  <a href="#menu"><span data-i18n="bar.menu">Menù</span></a>
+  <a href="#visita"><span data-i18n="bar.hours">Orari</span></a>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=La+Campagnola+Via+Fuori+Porta+San+Gennaro+13+Napoli" target="_blank" rel="noopener"><span data-i18n="bar.dir">Indicazioni</span></a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
