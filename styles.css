@@ -3,34 +3,34 @@
    Palette from the Vergini market + Naples maiolica. Tokens only. */
 
 :root{
-  --paper:#FAF3E1;
-  --paper-2:#F4EAD2;
-  --paper-3:#FFFDF6;
-  --blue:#1D4E9E;
-  --blue-deep:#123468;
-  --blue-ink:#0E2A52;
-  --lemon:#F0A818;
-  --lemon-soft:#FBD97B;
-  --tomato:#C8401F;
-  --tomato-deep:#9E2F14;
-  --basil:#2E6B34;
+  --paper:#F3E7CB;
+  --paper-2:#EBDCBB;
+  --paper-3:#FAF3E0;
+  --blue:#1C3D75;
+  --blue-deep:#0F2A52;
+  --blue-ink:#0A2144;
+  --lemon:#BE8E33;
+  --lemon-soft:#DFC088;
+  --tomato:#AC4527;
+  --tomato-deep:#7E3418;
+  --basil:#26572D;
   --ink:#2A241C;
-  --ink-soft:#5C5344;
-  --line:#E3D5B8;
-  --cream:#FFF8E9;
-  --white:#FFFDF6;
-  --cream-dim:#F6D9CE;
-  --line-dark:#C9B78F;
-  --foot-ink:#CFC4AC;
-  --foot-dim:#A99C80;
-  --bar-line:rgba(250,243,225,.25);
+  --ink-soft:#5A4F3E;
+  --line:#DCC9A0;
+  --cream:#F7EDD8;
+  --white:#FBF6E9;
+  --cream-dim:#EDC9B2;
+  --line-dark:#BBA87C;
+  --foot-ink:#CDBFA2;
+  --foot-dim:#A08F6E;
+  --bar-line:rgba(243,231,203,.25);
   --font-display:"Bodoni Moda",Didot,"Playfair Display",serif;
   --font-body:"Libre Franklin",system-ui,-apple-system,"Segoe UI",sans-serif;
   --font-hand:"Caveat",cursive;
-  --tile:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%23F7EEDA'/%3E%3Cpath d='M48 8 L57 39 L88 48 L57 57 L48 88 L39 57 L8 48 L39 39 Z' fill='%231D4E9E'/%3E%3Ccircle cx='48' cy='48' r='6.5' fill='%23F0A818'/%3E%3Cpath d='M1 1h94v94H1z' fill='none' stroke='%231D4E9E' stroke-opacity='.28'/%3E%3C/svg%3E");
-  --tile-dark:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%2317468C'/%3E%3Cpath d='M48 8 L57 39 L88 48 L57 57 L48 88 L39 57 L8 48 L39 39 Z' fill='%23F0A818' opacity='.85'/%3E%3Ccircle cx='48' cy='48' r='6.5' fill='%23FAF3E1'/%3E%3Cpath d='M1 1h94v94H1z' fill='none' stroke='%23FAF3E1' stroke-opacity='.22'/%3E%3C/svg%3E");
-  --awning:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='14' viewBox='0 0 56 14'%3E%3Crect width='28' height='14' fill='%231D4E9E'/%3E%3Crect x='28' width='28' height='14' fill='%23FAF3E1'/%3E%3C/svg%3E");
-  --awning-red:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='14' viewBox='0 0 56 14'%3E%3Crect width='28' height='14' fill='%23C8401F'/%3E%3Crect x='28' width='28' height='14' fill='%23FAF3E1'/%3E%3C/svg%3E");
+  --tile:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%23EFE1C2'/%3E%3Cpath d='M48 8 L57 39 L88 48 L57 57 L48 88 L39 57 L8 48 L39 39 Z' fill='%231C3D75'/%3E%3Ccircle cx='48' cy='48' r='6.5' fill='%23BE8E33'/%3E%3Cpath d='M1 1h94v94H1z' fill='none' stroke='%231C3D75' stroke-opacity='.28'/%3E%3C/svg%3E");
+  --tile-dark:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%2315335F'/%3E%3Cpath d='M48 8 L57 39 L88 48 L57 57 L48 88 L39 57 L8 48 L39 39 Z' fill='%23BE8E33' opacity='.85'/%3E%3Ccircle cx='48' cy='48' r='6.5' fill='%23F3E7CB'/%3E%3Cpath d='M1 1h94v94H1z' fill='none' stroke='%23F3E7CB' stroke-opacity='.22'/%3E%3C/svg%3E");
+  --awning:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='14' viewBox='0 0 56 14'%3E%3Crect width='28' height='14' fill='%231C3D75'/%3E%3Crect x='28' width='28' height='14' fill='%23F3E7CB'/%3E%3C/svg%3E");
+  --awning-red:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='14' viewBox='0 0 56 14'%3E%3Crect width='28' height='14' fill='%23AC4527'/%3E%3Crect x='28' width='28' height='14' fill='%23F3E7CB'/%3E%3C/svg%3E");
   --shadow:0 18px 40px -18px rgba(42,36,28,.35);
   --radius:18px;
 }
